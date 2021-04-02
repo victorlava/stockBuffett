@@ -1,0 +1,13 @@
+{
+    "name": "victor/stock-buffett",
+    "description": "Stocks in your terminal. Dedicated to Warren Buffet - the greatest value investor period.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Victor Lava",
+            "email": "github@aboutyou.com"
+        }
+    ],
+    "require": {}
+}
