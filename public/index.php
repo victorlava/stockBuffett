@@ -3,4 +3,5 @@
 require '../vendor/autoload.php';
 
 $test = new \StockBuffett\Action\AlphaVantage\Quote();
-$test->index();
+$test->initialize();
+echo $test->fire();
