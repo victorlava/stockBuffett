@@ -1,6 +1,6 @@
 <?php
 
-namespace StockBuffet\Constant;
+namespace StockBuffett\Constant;
 
 
 class AlphaVantage
@@ -9,7 +9,7 @@ class AlphaVantage
     const CONTENT_TYPE = 'application/json';
     const CHARSET = 'UTF-8';
 
-    const LIVE_ENDPOINT = 'https://www.alphavantage.co/query?';
+    const LIVE_ENDPOINT = 'https://www.alphavantage.co/query';
 
     const API_KEY = 'F1TCI4T646UZUCZM';
 
@@ -21,7 +21,8 @@ class AlphaVantage
     const CATEGORY_STOCK_TIME_SERIES = 'StockTimeSeries';
     const CATEGORY_FUNDAMENTAL_DATA = 'FundamentalData';
 
-    const ACTION_GET_QUOTE = 'QuoteEndpoint';
-    const ACTION_GET_INTRADAY = 'Intraday';
+    // TODO: use these in the child classes dynamically
+    const ACTION_GET_QUOTE = 'GLOBAL_QUOTES';
+    const ACTION_GET_INTRADAY = 'TIME_SERIES_INTRADAY';
 
 }

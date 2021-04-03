@@ -1,6 +1,6 @@
 <?php
 
-namespace StockBuffet\Action;
+namespace StockBuffett\Action;
 
 
 interface BaseAction
