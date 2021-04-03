@@ -2,6 +2,5 @@
 
 require '../vendor/autoload.php';
 
-$test = new \StockBuffett\Action\AlphaVantage\Daily('IBM');
-$test->initialize();
-echo $test->fire();
+$stock = new \StockBuffett\Provider\AlphaVantage();
+echo $stock->getTodaysStockPrice('IBM');
